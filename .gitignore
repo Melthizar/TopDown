@@ -1,0 +1,48 @@
+# Node modules and build output
+frontend/node_modules/
+frontend/dist/
+
+# Python virtual environment
+backend-venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Old Godot/editor files and backup
+backup/
+
+# Asset archives and temp folders (if not used in new project)
+*.zip
+*.7z
+*.rar
+
+# Ignore any other temp or editor folders
+.DS_Store
+Thumbs.db
+
+# Ignore logs and OS files
+*.log
+
+# Ignore any other folders not used by the new stack
+scripts/
+game_logic/
+.godot/
+
+# Ignore any extra folders you may add for experiments
+New folder/
+
+# Allow only these files/folders to be tracked:
+!frontend/
+!backend/
+!game_assets/
+!ground_tiles/
+!static_assets/
+!crafting_materials/
+!temp_assets/
+!reference_images/
+!.gitignore
+!README.md
+!updates.md
+!LICENSE
+!.editorconfig 
