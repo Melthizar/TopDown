@@ -1,6 +1,6 @@
 # Project Updates Log
 
-This file tracks all changes and known issues for the TopDown React + PixiJS + FastAPI project.
+This file tracks all changes and known issues for the TopDown Game project.
 
 ---
 
@@ -11,7 +11,7 @@ This file tracks all changes and known issues for the TopDown React + PixiJS + F
   - Created new Phaser.js + TypeScript project in `frontend/`.
   - Set up Vite, TypeScript, and Phaser.
   - Added a basic grid world, player, and camera logic.
-  - Ready for tilemap, asset, and AI/LLM integration.
+  - Ready for tilemap, asset, and AI/LLM integration for a top-down game.
 
 ---
 

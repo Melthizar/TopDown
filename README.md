@@ -1,7 +1,7 @@
-# Stardew Valley Style Game – Phaser.js + FastAPI
+# TopDown Game – Phaser.js + FastAPI
 
 ## Overview
-This project is a modern, code-driven 2D tile-based game inspired by Stardew Valley and classic RPGs.
+This project is a modern, code-driven 2D top-down tile-based game.
 
 - **Frontend:** Phaser.js (TypeScript, Vite)
 - **Backend:** FastAPI (Python, for AI/LLM, world logic, and persistence)

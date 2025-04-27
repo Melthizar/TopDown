@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 - Removed React + PixiJS frontend.
 - Added new Phaser.js + TypeScript frontend with Vite.
 - Basic grid, player, and camera logic implemented.
-- Project ready for tilemap, asset, and AI/LLM integration.
+- Project ready for tilemap, asset, and AI/LLM integration as a top-down game.
 
 ## [0.2.0] - Feature Release
 ### Added
