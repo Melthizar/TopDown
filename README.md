@@ -1,12 +1,13 @@
-# TopDown: React + PixiJS + FastAPI Game Skeleton
+# Stardew Valley Style Game – Phaser.js + FastAPI
 
 ## Overview
-This project is a modern, code-only 2D tile engine and game skeleton. It uses:
-- **Frontend:** React + PixiJS (TypeScript)
-- **Backend:** FastAPI (Python)
-- **Assets:** All your original images and tiles are preserved in asset folders.
+This project is a modern, code-driven 2D tile-based game inspired by Stardew Valley and classic RPGs.
 
-No visual editors are required. All logic, rendering, and AI integration is done in code.
+- **Frontend:** Phaser.js (TypeScript, Vite)
+- **Backend:** FastAPI (Python, for AI/LLM, world logic, and persistence)
+- **Assets:** All original images and tiles are preserved in the assets/public folders.
+
+No visual editors are required for the frontend. All logic, rendering, and AI integration is done in code.
 
 ---
 
@@ -23,7 +24,7 @@ No visual editors are required. All logic, rendering, and AI integration is done
 
 ```
 TopDown/
-├── frontend/         # React + PixiJS app (TypeScript)
+├── frontend/         # Phaser.js + TypeScript game (Vite)
 ├── backend/          # FastAPI backend (Python)
 ├── backend-venv/     # Python virtual environment for backend
 ├── game_assets/      # Game image/sprite assets
@@ -64,7 +65,7 @@ The backend will be available at http://localhost:8000
 
 ---
 
-### 2. Frontend (React + PixiJS)
+### 2. Frontend (Phaser.js + Vite)
 
 #### Setup (first time only)
 ```sh
@@ -81,10 +82,10 @@ The frontend will be available at http://localhost:5173
 ---
 
 ## Features
-- Simple tilemap rendering (all code, no editor)
-- Robot sprite with keyboard controls
-- REST API call to backend for robot action (demo)
+- Tile-based world rendering (Phaser.js)
+- Player movement and camera following
 - Easy to extend with AI/LLM logic in Python backend
+- Ready for asset integration and procedural world logic
 
 ## How to Log Changes
 - Any time you want to log a change or note a problem, type `update` as your message. The assistant will append the change/problem to `updates.md`.
