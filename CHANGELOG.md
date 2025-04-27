@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - Phaser Refactor
+### Changed
+- Removed React + PixiJS frontend.
+- Added new Phaser.js + TypeScript frontend with Vite.
+- Basic grid, player, and camera logic implemented.
+- Project ready for tilemap, asset, and AI/LLM integration.
+
 ## [0.2.0] - Feature Release
 ### Added
 - Centered robot display: Robot remains centered on the screen.
