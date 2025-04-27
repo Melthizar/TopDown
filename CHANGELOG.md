@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.1] - Final Rebranding
+### Changed
+- Removed all references to previous game inspirations from documentation, code, and HTML.
+- Updated HTML title to 'TopDown Game - Phaser'.
+
 ## [0.3.0] - Phaser Refactor
 ### Changed
 - Removed React + PixiJS frontend.
